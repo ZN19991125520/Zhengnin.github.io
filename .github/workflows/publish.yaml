@@ -11,95 +11,117 @@ status:
 superuser: true
 highlight_name: true
 
-role: Chargée de Mission en Finance et Stratégie
+role: Scientifique en chef
 
 organizations:
-  - name: EDHEC Business School
-    url: https://www.edhec.edu/
+  - name: OpenAI
+    url: https://openai.com/
 
 profiles:
   - icon: at-symbol
-    url: 'mailto:ning.zheng@edhec.com'
+    url: 'mailto:your-email@example.com'
     label: E-mail
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/ningzheng/
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://github.com/gcushen
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
-  - Finance d'entreprise
-  - Analyse de données
-  - Stratégie et gestion
+  - Intelligence Artificielle
+  - Linguistique computationnelle
+  - Recherche d'information
 
 education:
-  - area: Master en Management (PGE)
-    institution: EDHEC Business School, France
-    date_start: 2024-09-01
-    date_end: 2026-06-30
+  - area: Doctorat en Intelligence Artificielle
+    institution: Université de Stanford
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      Spécialisation en finance d'entreprise et analyse stratégique.
-  - area: Licence en Langue et Littérature Françaises
-    institution: Xi'an International Studies University, Chine
-    date_start: 2017-09-01
-    date_end: 2021-06-30
+      Thèse sur _Pourquoi les LLMs sont géniaux_. Supervisée par [Prof Joe Smith](https://example.com). Articles publiés dans 2 journaux Springer et présentés à 5 conférences IEEE.
+    button:
+      text: 'Lire la thèse'
+      url: 'https://example.com'
+  - area: MEng Intelligence Artificielle
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      Études en commerce international, communication interculturelle et étiquette des affaires occidentales.
+      GPA: 3.8/4.0
+
+      Cours suivis:
+      - Introduction à l'IA
+      - Apprentissage automatique
+      - Big Data et algorithmes avancés
+  - area: Licence en Intelligence Artificielle
+    institution: Massachusetts Institute of Technology
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+      
+      Cours suivis:
+      - Programmation en Python
+      - Bases de données et SQL
+      - Algorithmes et structures de données
 
 work:
-  - position: Assistante Logistique & Douanes
-    company_name: Zijin Mining Group - COMMUS, DRC
-    date_start: 2022-07-01
-    date_end: 2024-05-31
+  - position: Directeur de l'Infrastructure Cloud
+    company_name: GenCoin
+    date_start: 2021-01-01
     summary: |
-      - Gestion logistique des expéditions internationales et conformité douanière.
-      - Amélioration des processus réduisant les délais de 15%.
-  
-  - position: Assistante Analyste Financier
-    company_name: SICOMINES, DRC
-    date_start: 2021-07-01
-    date_end: 2022-06-30
+      Responsabilités:
+      - Gestion de l'infrastructure cloud
+      - Mise en place de protocoles de sécurité avancés
+      - Optimisation des coûts de serveurs
+  - position: Ingénieur logiciel backend
+    company_name: X
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
-      - Assistance dans l'analyse financière pour les fusions et acquisitions.
-      - Collaboration sur l'examen des états financiers et les projections financières.
+      Responsabilités:
+      - Migration d'infrastructure
+      - Développement de services RESTful
 
 skills:
   - name: Compétences Techniques
     items:
-      - name: Analyse financière
-        description: ''
-        percent: 85
-        icon: chart-line
-      - name: SQL
-        description: ''
-        percent: 50
-        icon: database
-      - name: Microsoft Excel
-        description: ''
-        percent: 90
-        icon: table-cells
-  - name: Langues
-    items:
-      - name: Chinois (natif)
-        percent: 100
-      - name: Français (C1)
-        percent: 85
-      - name: Anglais (IELTS 7)
+      - name: Python
         percent: 80
-      - name: Espagnol (débutant)
-        percent: 20
+      - name: Science des données
+        percent: 100
+      - name: SQL
+        percent: 40
+
+languages:
+  - name: Français
+    percent: 100
+  - name: Chinois
+    percent: 75
+  - name: Anglais
+    percent: 90
 
 awards:
-  - title: Certification DALF C1
-    date: '2021-06-01'
-    awarder: CIEP
+  - title: Réseaux de neurones et Deep Learning
+    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    date: '2023-11-25'
+    awarder: Coursera
     summary: |
-      Certification officielle démontrant une maîtrise avancée du français.
-  - title: IELTS 7.0
-    date: '2020-08-01'
-    awarder: British Council
+      Apprentissage des concepts fondamentaux du deep learning.
+  - title: Fondamentaux de la Blockchain
+    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    date: '2023-07-01'
+    awarder: edX
     summary: |
-      Compétences avancées en anglais académique et professionnel.
+      Principes et applications des blockchains, Bitcoin et Ethereum.
 
-about:
-  summary: |
-    Passionnée par la finance et la stratégie, j'ai acquis une solide expérience en analyse financière, gestion logistique et conformité douanière à l'international. Actuellement étudiante en Master à l'EDHEC, je cherche une alternance dans la finance d'entreprise pour approfondir mes compétences et contribuer activement à des projets stratégiques.
+## À propos de moi
+
+Scientifique en intelligence artificielle, passionnée par l'apprentissage automatique et la linguistique computationnelle. J'aspire à développer des modèles innovants pour la recherche et l'industrie.
