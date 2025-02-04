@@ -1,72 +1,105 @@
-name: Deploy website to GitHub Pages
+title: 郑宁
 
-env:
-  WC_HUGO_VERSION: '0.136.5'
+name_pronunciation: Zheng Ning
 
-on:
-  # Trigger the workflow every time you push to the `main` branch
-  push:
-    branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
-  workflow_dispatch:
+first_name: Ning
+last_name: Zheng
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+status:
+  icon: ☕️
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+superuser: true
+highlight_name: true
 
-jobs:
-  # Build website
-  build:
-    if: github.repository_owner != 'HugoBlox'
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
-        fetch-depth: 0
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: ${{ env.WC_HUGO_VERSION }}
-        extended: true
-    - uses: actions/cache@v3
-      with:
-        path: /tmp/hugo_cache_runner/
-        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
-        restore-keys: |
-          ${{ runner.os }}-hugomod-
-    - name: Setup Pages
-      id: pages
-      uses: actions/configure-pages@v5
-    - name: Build with Hugo
-      env:
-        HUGO_ENVIRONMENT: production
-      run: |
-        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-    - name: Generate Pagefind search index
-      run: npx pagefind --site "public"
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./public
+role: Chargée de Mission en Finance et Stratégie
 
-  # Deploy website to GitHub Pages hosting
-  deploy:
-    if: github.repository_owner != 'HugoBlox'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+organizations:
+  - name: EDHEC Business School
+    url: https://www.edhec.edu/
+
+profiles:
+  - icon: at-symbol
+    url: 'mailto:ning.zheng@edhec.com'
+    label: E-mail
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/ningzheng/
+  - icon: brands/instagram
+    url: https://www.instagram.com/
+
+interests:
+  - Finance d'entreprise
+  - Analyse de données
+  - Stratégie et gestion
+
+education:
+  - area: Master en Management (PGE)
+    institution: EDHEC Business School, France
+    date_start: 2024-09-01
+    date_end: 2026-06-30
+    summary: |
+      Spécialisation en finance d'entreprise et analyse stratégique.
+  - area: Licence en Langue et Littérature Françaises
+    institution: Xi'an International Studies University, Chine
+    date_start: 2017-09-01
+    date_end: 2021-06-30
+    summary: |
+      Études en commerce international, communication interculturelle et étiquette des affaires occidentales.
+
+work:
+  - position: Assistante Logistique & Douanes
+    company_name: Zijin Mining Group - COMMUS, DRC
+    date_start: 2022-07-01
+    date_end: 2024-05-31
+    summary: |
+      - Gestion logistique des expéditions internationales et conformité douanière.
+      - Amélioration des processus réduisant les délais de 15%.
+  
+  - position: Assistante Analyste Financier
+    company_name: SICOMINES, DRC
+    date_start: 2021-07-01
+    date_end: 2022-06-30
+    summary: |
+      - Assistance dans l'analyse financière pour les fusions et acquisitions.
+      - Collaboration sur l'examen des états financiers et les projections financières.
+
+skills:
+  - name: Compétences Techniques
+    items:
+      - name: Analyse financière
+        description: ''
+        percent: 85
+        icon: chart-line
+      - name: SQL
+        description: ''
+        percent: 50
+        icon: database
+      - name: Microsoft Excel
+        description: ''
+        percent: 90
+        icon: table-cells
+  - name: Langues
+    items:
+      - name: Chinois (natif)
+        percent: 100
+      - name: Français (C1)
+        percent: 85
+      - name: Anglais (IELTS 7)
+        percent: 80
+      - name: Espagnol (débutant)
+        percent: 20
+
+awards:
+  - title: Certification DALF C1
+    date: '2021-06-01'
+    awarder: CIEP
+    summary: |
+      Certification officielle démontrant une maîtrise avancée du français.
+  - title: IELTS 7.0
+    date: '2020-08-01'
+    awarder: British Council
+    summary: |
+      Compétences avancées en anglais académique et professionnel.
+
+about:
+  summary: |
+    Passionnée par la finance et la stratégie, j'ai acquis une solide expérience en analyse financière, gestion logistique et conformité douanière à l'international. Actuellement étudiante en Master à l'EDHEC, je cherche une alternance dans la finance d'entreprise pour approfondir mes compétences et contribuer activement à des projets stratégiques.
