@@ -1,106 +1,48 @@
----
-title: 郑宁
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郑宁的学术研究网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的学术研究网站</h1>
+        <p>我是郑宁，EDHEC商学院商业管理硕士学位学生，专注于财务、战略和市场研究。</p>
+        <nav>
+            <ul>
+                <li><a href="#cv">我的简历</a></li>
+                <li><a href="#research">学术研究</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
 
-name_pronunciation: Zheng Ning
+    <section id="cv">
+        <h2>我的简历</h2>
+        <p>教育背景、工作经验及技能。</p>
+    </section>
 
-first_name: Ning
-last_name: Zheng
+    <section id="research">
+        <h2>学术研究</h2>
+        <p>展示我的研究项目和成果。</p>
+    </section>
 
-status:
-  icon: ☕️
+    <section id="blog">
+        <h2>博客</h2>
+        <p>分享我在学术领域的见解和思考。</p>
+    </section>
 
-superuser: true
-highlight_name: true
+    <section id="contact">
+        <h2>联系方式</h2>
+        <p>电子邮件：<a href="mailto:ning.zheng@edhec.com">ning.zheng@edhec.com</a></p>
+        <p>LinkedIn：<a href="https://www.linkedin.com/in/your-linkedin" target="_blank">我的LinkedIn</a></p>
+    </section>
 
-role: Chargée de Mission en Finance et Stratégie
-
-organizations:
-  - name: EDHEC Business School
-    url: https://www.edhec.edu/
-
-profiles:
-  - icon: at-symbol
-    url: 'mailto:ning.zheng@edhec.com'
-    label: E-mail
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/ningzheng/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-
-interests:
-  - Finance d'entreprise
-  - Analyse de données
-  - Stratégie et gestion
-
-education:
-  - area: Master en Management (PGE)
-    institution: EDHEC Business School, France
-    date_start: 2024-09-01
-    date_end: 2026-06-30
-    summary: |
-      Spécialisation en finance d'entreprise et analyse stratégique.
-  - area: Licence en Langue et Littérature Françaises
-    institution: Xi'an International Studies University, Chine
-    date_start: 2017-09-01
-    date_end: 2021-06-30
-    summary: |
-      Études en commerce international, communication interculturelle et étiquette des affaires occidentales.
-
-work:
-  - position: Assistante Logistique & Douanes
-    company_name: Zijin Mining Group - COMMUS, DRC
-    date_start: 2022-07-01
-    date_end: 2024-05-31
-    summary: |
-      - Gestion logistique des expéditions internationales et conformité douanière.
-      - Amélioration des processus réduisant les délais de 15%.
-  
-  - position: Assistante Analyste Financier
-    company_name: SICOMINES, DRC
-    date_start: 2021-07-01
-    date_end: 2022-06-30
-    summary: |
-      - Assistance dans l'analyse financière pour les fusions et acquisitions.
-      - Collaboration sur l'examen des états financiers et les projections financières.
-
-skills:
-  - name: Compétences Techniques
-    items:
-      - name: Analyse financière
-        description: ''
-        percent: 85
-        icon: chart-line
-      - name: SQL
-        description: ''
-        percent: 50
-        icon: database
-      - name: Microsoft Excel
-        description: ''
-        percent: 90
-        icon: table-cells
-  - name: Langues
-    items:
-      - name: Chinois (natif)
-        percent: 100
-      - name: Français (C1)
-        percent: 85
-      - name: Anglais (IELTS 7)
-        percent: 80
-      - name: Espagnol (débutant)
-        percent: 20
-
-awards:
-  - title: Certification DALF C1
-    date: '2021-06-01'
-    awarder: CIEP
-    summary: |
-      Certification officielle démontrant une maîtrise avancée du français.
-  - title: IELTS 7.0
-    date: '2020-08-01'
-    awarder: British Council
-    summary: |
-      Compétences avancées en anglais académique et professionnel.
-
-about:
-  summary: |
-    Passionnée par la finance et la stratégie, j'ai acquis une solide expérience en analyse financière, gestion logistique et conformité douanière à l'international. Actuellement étudiante en Master à l'EDHEC, je cherche une alternance dans la finance d'entreprise pour approfondir mes compétences et contribuer activement à des projets stratégiques.
+    <footer>
+        <p>© 2025 郑宁的学术研究网站</p>
+    </footer>
+</body>
+</html>
