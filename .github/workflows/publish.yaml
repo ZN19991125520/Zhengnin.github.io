@@ -1,127 +1,48 @@
-title: 郑宁
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>郑宁的学术研究网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的学术研究网站</h1>
+        <p>我是郑宁，EDHEC商学院商业管理硕士学位学生，专注于财务、战略和市场研究。</p>
+        <nav>
+            <ul>
+                <li><a href="#cv">我的简历</a></li>
+                <li><a href="#research">学术研究</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
 
-name_pronunciation: Zheng Ning
+    <section id="cv">
+        <h2>我的简历</h2>
+        <p>教育背景、工作经验及技能。</p>
+    </section>
 
-first_name: Ning
-last_name: Zheng
+    <section id="research">
+        <h2>学术研究</h2>
+        <p>展示我的研究项目和成果。</p>
+    </section>
 
-status:
-  icon: ☕️
+    <section id="blog">
+        <h2>博客</h2>
+        <p>分享我在学术领域的见解和思考。</p>
+    </section>
 
-superuser: true
-highlight_name: true
+    <section id="contact">
+        <h2>联系方式</h2>
+        <p>电子邮件：<a href="mailto:ning.zheng@edhec.com">ning.zheng@edhec.com</a></p>
+        <p>LinkedIn：<a href="https://www.linkedin.com/in/your-linkedin" target="_blank">我的LinkedIn</a></p>
+    </section>
 
-role: Scientifique en chef
-
-organizations:
-  - name: OpenAI
-    url: https://openai.com/
-
-profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
-
-interests:
-  - Intelligence Artificielle
-  - Linguistique computationnelle
-  - Recherche d'information
-
-education:
-  - area: Doctorat en Intelligence Artificielle
-    institution: Université de Stanford
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thèse sur _Pourquoi les LLMs sont géniaux_. Supervisée par [Prof Joe Smith](https://example.com). Articles publiés dans 2 journaux Springer et présentés à 5 conférences IEEE.
-    button:
-      text: 'Lire la thèse'
-      url: 'https://example.com'
-  - area: MEng Intelligence Artificielle
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Cours suivis:
-      - Introduction à l'IA
-      - Apprentissage automatique
-      - Big Data et algorithmes avancés
-  - area: Licence en Intelligence Artificielle
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Cours suivis:
-      - Programmation en Python
-      - Bases de données et SQL
-      - Algorithmes et structures de données
-
-work:
-  - position: Directeur de l'Infrastructure Cloud
-    company_name: GenCoin
-    date_start: 2021-01-01
-    summary: |
-      Responsabilités:
-      - Gestion de l'infrastructure cloud
-      - Mise en place de protocoles de sécurité avancés
-      - Optimisation des coûts de serveurs
-  - position: Ingénieur logiciel backend
-    company_name: X
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsabilités:
-      - Migration d'infrastructure
-      - Développement de services RESTful
-
-skills:
-  - name: Compétences Techniques
-    items:
-      - name: Python
-        percent: 80
-      - name: Science des données
-        percent: 100
-      - name: SQL
-        percent: 40
-
-languages:
-  - name: Français
-    percent: 100
-  - name: Chinois
-    percent: 75
-  - name: Anglais
-    percent: 90
-
-awards:
-  - title: Réseaux de neurones et Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    summary: |
-      Apprentissage des concepts fondamentaux du deep learning.
-  - title: Fondamentaux de la Blockchain
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    summary: |
-      Principes et applications des blockchains, Bitcoin et Ethereum.
-
-## À propos de moi
-
-Scientifique en intelligence artificielle, passionnée par l'apprentissage automatique et la linguistique computationnelle. J'aspire à développer des modèles innovants pour la recherche et l'industrie.
+    <footer>
+        <p>© 2025 郑宁的学术研究网站</p>
+    </footer>
+</body>
+</html>
